@@ -1,0 +1,1 @@
+cmd_/home/kylin/github/Linux-Kernel/kprobe/kprobe.ko := ld -r -m elf_x86_64 -T /usr/src/linux-headers-3.13.0-37-generic/scripts/module-common.lds --build-id  -o /home/kylin/github/Linux-Kernel/kprobe/kprobe.ko /home/kylin/github/Linux-Kernel/kprobe/kprobe.o /home/kylin/github/Linux-Kernel/kprobe/kprobe.mod.o
