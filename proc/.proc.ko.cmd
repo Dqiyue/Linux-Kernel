@@ -1,0 +1,1 @@
+cmd_/home/witchblade/桌面/11内核课程/第9章/实训1/proc.ko := ld -r -m elf_x86_64 -T /usr/src/linux-headers-3.11.0-12-generic/scripts/module-common.lds --build-id  -o /home/witchblade/桌面/11内核课程/第9章/实训1/proc.ko /home/witchblade/桌面/11内核课程/第9章/实训1/proc.o /home/witchblade/桌面/11内核课程/第9章/实训1/proc.mod.o
