@@ -1,0 +1,1 @@
+cmd_/home/kylin/github/Linux-Kernel/alloc/alloc.ko := ld -r -m elf_x86_64 -T /usr/src/linux-headers-3.13.0-37-generic/scripts/module-common.lds --build-id  -o /home/kylin/github/Linux-Kernel/alloc/alloc.ko /home/kylin/github/Linux-Kernel/alloc/alloc.o /home/kylin/github/Linux-Kernel/alloc/alloc.mod.o
