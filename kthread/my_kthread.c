@@ -18,7 +18,7 @@ int my_thread_handle(void *data){
 static int __init my_kthread_init(void)
 {
 	int err;
-	my_task = kthread_create(my_thread_handle, "Dqiyue", "my_task");
+	my_task = kthread_run(my_thread_handle, "Dqiyue", "my_task");
 	if(IS_ERR(my_task)){
 		printk("unable to start kernel thread.\n");
 		err = PTR_ERR(my_task);
